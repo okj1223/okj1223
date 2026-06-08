@@ -15,12 +15,12 @@
   <path d="M940 0V360" stroke="#17201D" stroke-width="1"/>
   <path d="M1100 0V360" stroke="#17201D" stroke-width="1"/>
 
-  <path d="M82 278C156 208 220 222 295 168C374 111 431 121 506 84C579 48 641 60 708 38" stroke="#71F7C6" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M82 278C156 208 220 222 295 168C374 111 431 121 506 84C579 48 641 60 708 38" stroke="#71F7C6" stroke-opacity=".22" stroke-width="12" stroke-linecap="round"/>
+  <path d="M82 278C154 238 225 244 300 224C382 202 450 206 536 184C611 165 655 142 708 112" stroke="#71F7C6" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M82 278C154 238 225 244 300 224C382 202 450 206 536 184C611 165 655 142 708 112" stroke="#71F7C6" stroke-opacity=".22" stroke-width="12" stroke-linecap="round"/>
   <circle cx="82" cy="278" r="5" fill="#71F7C6"/>
-  <circle cx="295" cy="168" r="5" fill="#71F7C6"/>
-  <circle cx="506" cy="84" r="5" fill="#71F7C6"/>
-  <circle cx="708" cy="38" r="5" fill="#71F7C6"/>
+  <circle cx="300" cy="224" r="5" fill="#71F7C6"/>
+  <circle cx="536" cy="184" r="5" fill="#71F7C6"/>
+  <circle cx="708" cy="112" r="5" fill="#71F7C6"/>
 
   <rect x="766" y="60" width="336" height="214" rx="10" fill="#111816" stroke="#2A3834"/>
   <rect x="790" y="92" width="92" height="10" rx="5" fill="#71F7C6"/>
