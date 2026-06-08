@@ -1,11 +1,10 @@
-# Jayden
+<img src="./assets/profile-banner.svg" alt="Vision into behavior. VLMs, imitation learning, and agentic developer tools." width="100%" />
 
-**Vision into behavior. Tools with a pulse.**
+### Jayden
 
-VLMs · imitation learning · agentic developer workflows
+I build systems that can see, learn, and act, then make their state visible enough to trust.
 
 ```text
-focus
 VLMs                  ████████░░
 Imitation Learning    ███████░░░
 Agent Tooling         █████████░
@@ -13,13 +12,9 @@ Research Ops          ████████░░
 Product Feel          ███████░░░
 ```
 
-I like systems that can see, learn, and act, but still feel quiet, legible, and alive.
+**Now**: VLMs, imitation learning, and small tools that make agent work feel legible.
 
-## Public
+**Public**
 
-- [Codex Dot Companion](https://github.com/okj1223/codex-dot-companion) — tiny desktop mascots for Codex sessions
-- [Portfolio](https://okj1223.github.io/) — personal site
-
-## Now
-
-VLMs, imitation learning, and small tools that make agent state visible.
+- [Codex Dot Companion](https://github.com/okj1223/codex-dot-companion) - tiny desktop mascots for Codex sessions
+- [Portfolio](https://okj1223.github.io/) - personal site
