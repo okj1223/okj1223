@@ -12,6 +12,16 @@ I build hardware-aware robotics and automation systems where perception, control
 
 My strongest work is not one isolated layer. I like the full loop: define the requirement, build the rig or software path, collect the data, design the safety gates, inspect failures, and turn the result into something another person can actually run.
 
+**At a glance**
+
+| Signal | Evidence |
+| --- | --- |
+| Humanoid learning operations | ~10k teleoperation collection attempts, 3-tier QA taxonomy, master-arm + MANUS glove + multi-view data workflows |
+| ROS2 autonomy | TurtleBot3 digital-twin validation, Pick & Place, perception, inverse kinematics, sensor fusion, runtime safety layers |
+| Industrial automation | SCR catalyst cleaning, mixing, liquid injection, pump systems, catalyst testbench instrumentation, hazardous-workflow reduction |
+| Research discipline | Baselines, acceptance bars, HGR metrics, ADRs, torque envelopes, uncertainty, repeatability, failure review |
+| Practical tooling | Ubuntu GUI tools, .deb packaging, local-first workflow kernels, dashboards, audit trails, recovery reports |
+
 **What I am good at**
 
 - Turning messy field problems into measurable requirements, test protocols, and decision gates.
@@ -19,21 +29,64 @@ My strongest work is not one isolated layer. I like the full loop: define the re
 - Connecting mechanical design, sensors, control logic, fabrication, and software instead of treating them as separate worlds.
 - Making local tools that reduce operational friction: dashboards, CLIs, print pipelines, workflow runners, and personal automation systems.
 
-**Selected work**
+**System map**
+
+| Layer | What I have built around it |
+| --- | --- |
+| Robot learning data | Teleoperation sessions, glove/finger signals, robot state logs, multi-view vision, bad-sample filtering, failure taxonomies |
+| Autonomy and perception | ROS2 nodes, OpenCV/ArUco, YOLO pipelines, sensor fusion, lane following, object detection, safety-event handling |
+| Mechanical and fluid systems | Stair-climbing quadruped load cases, pressure vessels, pumps, dry-ice pellet feeding, MFC gas delivery, nozzle/fluid calculations |
+| Controls and instrumentation | PID control, inverter control, Arduino/Raspberry Pi orchestration, MQTT, load cells, gas analyzers, temperature zones |
+| Operator tools | Local CLIs, dashboards, print/export workflows, install scripts, preview servers, Korean reports, recovery/audit artifacts |
+
+**How I turn a problem into a system**
+
+```mermaid
+flowchart LR
+    A[Field problem] --> B[Requirements]
+    B --> C[Baseline and constraints]
+    C --> D[Rig, software, or data path]
+    D --> E[Instrumentation and logs]
+    E --> F[Failure review]
+    F --> G[Safety gates and acceptance bars]
+    G --> H[Docs, packaging, and handoff]
+```
+
+**Featured systems**
 
 | Work | Signal |
 | --- | --- |
 | [Humanoid manipulation data workflow](https://okj1223.github.io/projects/robros-humanoid-manipulation-data-pipeline/) | ROBROS research assistant work across master-arm and MANUS glove teleoperation, multi-view data collection, failure review, filtering, and a 3-tier QA taxonomy for warehouse manipulation PoCs. |
 | [TurtleBot3 autonomous system](https://okj1223.github.io/projects/turtlebot3-autonomous-system/) | ROS2, Gazebo, OpenCV, ArUco, inverse kinematics, sensor fusion, lane following, Pick & Place, and sim-to-real tuning. |
 | [SCR catalyst testing apparatus](https://okj1223.github.io/projects/scr-catalyst-testing-apparatus/) | Bench-scale VGB-R 302 style test system with MFC gas delivery, four-zone temperature control, NOx analysis, leak checks, uncertainty, and repeatability thinking. |
+| [Robot-based liquid injection](https://okj1223.github.io/projects/liquid_injection/) | ROS2-based precision pouring with a Doosan M0609, load cells, MQTT, adaptive control, flow modeling, and target concentration control within +/-0.5%. |
 | [QuadPorter](https://github.com/okj1223/QuadPorter) | Mechanics-first 12-DOF quadruped research workspace for 5 kg payload stair climbing, with load cases, torque envelopes, mass budget, actuator screening, and rig gates. |
 | [trace-il-mvp](https://github.com/okj1223/trace-il-mvp) | Toy imitation-learning research MVP for hallucinated grasp reduction using synthetic scenes, behavior cloning baselines, TRACE-style breadcrumbs, diagnostics, and evaluation metrics. |
 | [Notion Printer](https://github.com/okj1223/notion_printer) | Ubuntu GUI/CLI tool that turns messy Notion HTML or ZIP exports into printable integrated documents with pagination, previews, debug factories, and .deb packaging. |
 | [Weaveflow](https://github.com/okj1223/weaveflow) | Local-first workflow kernel and OpenClaw/Codex automation experiment focused on task records, recovery, audit trails, Korean reports, and long-running job control. |
 
-**Stack I use**
+<details>
+<summary><strong>More portfolio systems</strong></summary>
+
+| Project | Why it matters |
+| --- | --- |
+| [Automated catalyst cleaning robot](https://okj1223.github.io/projects/automated-catalyst-cleaning/) | Arduino control, fluid-delivery nozzles, CAD/CAM, welded frame, motion hardware, and hazardous-environment maintenance automation. |
+| [Dry ice blaster feeding system](https://okj1223.github.io/projects/dry-ice-blaster-feeding-system/) | Pressure-vessel design, TIG welding, inverter control, pneumatic transport, two-phase flow, and field equipment manufacturing. |
+| [Automated mixing system](https://okj1223.github.io/projects/automated-mixing-system/) | Arduino + Raspberry Pi dual-controller automation with PID control, MQTT, sensor arrays, solenoid valves, and process monitoring. |
+| [Dual gear pump system](https://okj1223.github.io/projects/dual-gear-pump-system/) | Hydraulic head analysis, NPSH checks, inverter control, modular frame design, and portable catalyst-regeneration hardware. |
+| [PCB inspection system](https://okj1223.github.io/projects/pcb_inspection/) | YOLOv11, ROS2, RealSense, MQTT, voice pipeline, web tooling, custom conveyor, robot handling, and inspection-to-sort flow. |
+| [Industrial safety robot system](https://okj1223.github.io/projects/crack-ppe-detection/) | ROS2, YOLOv8, MQTT, Kalman filtering, dashboards, multi-robot coordination, and real-time safety-event awareness. |
+| [Alpha Trading Scanner](https://github.com/okj1223/alpha-trading-scanner) | Non-robotics but relevant: guarded automation with arming phrases, kill switch, risk gates, idempotency, broker reconciliation, and audit logs. |
+
+</details>
+
+**Tools and materials**
 
 `Python` `C/C++` `ROS2` `OpenCV` `Gazebo` `Docker` `Linux` `Next.js` `TypeScript` `Supabase` `SQLite` `MQTT` `Arduino` `Raspberry Pi` `CAD` `TIG welding` `instrumentation`
+
+| Robotics and AI | Industrial systems | Software and ops |
+| --- | --- | --- |
+| ROS2, Gazebo, OpenCV, ArUco, YOLO, imitation learning, dataset QA | CAD/CAM, TIG welding, pumps, pressure vessels, MFCs, PID, inverters, sensors | Python CLIs, Next.js, Supabase, SQLite, Docker, installers, dashboards, local automation |
 
 **Working style**
 
