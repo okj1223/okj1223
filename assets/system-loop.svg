@@ -1,0 +1,72 @@
+<svg width="1200" height="390" viewBox="0 0 1200 390" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering loop</title>
+  <desc id="desc">A readable two-row flow showing how field problems become requirements, baselines, build paths, logs, failure review, safety gates, and handoff.</desc>
+  <rect width="1200" height="390" rx="16" fill="#0D1117"/>
+  <path d="M0 195H1200" stroke="#1F2937" stroke-width="1"/>
+  <path d="M150 0V390" stroke="#161B22" stroke-width="1"/>
+  <path d="M450 0V390" stroke="#161B22" stroke-width="1"/>
+  <path d="M750 0V390" stroke="#161B22" stroke-width="1"/>
+  <path d="M1050 0V390" stroke="#161B22" stroke-width="1"/>
+
+  <text x="60" y="54" fill="#E6EDF3" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="760">How I turn a problem into a system</text>
+  <text x="62" y="84" fill="#8B949E" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16" font-weight="520">requirements - rigs - data - gates - handoff</text>
+
+  <g>
+    <rect x="60" y="122" width="240" height="82" rx="10" fill="#111820" stroke="#30363D"/>
+    <text x="82" y="156" fill="#7EE787" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="25" font-weight="720">Field problem</text>
+    <text x="82" y="184" fill="#C9D1D9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="520">real constraints first</text>
+  </g>
+  <g>
+    <rect x="340" y="122" width="240" height="82" rx="10" fill="#111820" stroke="#30363D"/>
+    <text x="362" y="156" fill="#79C0FF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="25" font-weight="720">Requirements</text>
+    <text x="362" y="184" fill="#C9D1D9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="520">targets, scope, non-goals</text>
+  </g>
+  <g>
+    <rect x="620" y="122" width="240" height="82" rx="10" fill="#111820" stroke="#30363D"/>
+    <text x="642" y="156" fill="#D2A8FF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="25" font-weight="720">Baseline</text>
+    <text x="642" y="184" fill="#C9D1D9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="520">constraints and acceptance</text>
+  </g>
+  <g>
+    <rect x="900" y="122" width="240" height="82" rx="10" fill="#111820" stroke="#30363D"/>
+    <text x="922" y="156" fill="#FFA657" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="25" font-weight="720">Build path</text>
+    <text x="922" y="184" fill="#C9D1D9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="520">rig, software, or data flow</text>
+  </g>
+
+  <path d="M306 163H331" stroke="#6E7681" stroke-width="3" stroke-linecap="round"/>
+  <path d="M329 154L342 163L329 172" stroke="#6E7681" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M586 163H611" stroke="#6E7681" stroke-width="3" stroke-linecap="round"/>
+  <path d="M609 154L622 163L609 172" stroke="#6E7681" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M866 163H891" stroke="#6E7681" stroke-width="3" stroke-linecap="round"/>
+  <path d="M889 154L902 163L889 172" stroke="#6E7681" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M1020 210V238" stroke="#6E7681" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1011 236L1020 249L1029 236" stroke="#6E7681" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g>
+    <rect x="60" y="258" width="240" height="82" rx="10" fill="#111820" stroke="#30363D"/>
+    <text x="82" y="292" fill="#7EE787" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="25" font-weight="720">Handoff</text>
+    <text x="82" y="320" fill="#C9D1D9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="520">docs, packaging, recovery</text>
+  </g>
+  <g>
+    <rect x="340" y="258" width="240" height="82" rx="10" fill="#111820" stroke="#30363D"/>
+    <text x="362" y="292" fill="#79C0FF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="25" font-weight="720">Safety gates</text>
+    <text x="362" y="320" fill="#C9D1D9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="520">risk checks and go/no-go</text>
+  </g>
+  <g>
+    <rect x="620" y="258" width="240" height="82" rx="10" fill="#111820" stroke="#30363D"/>
+    <text x="642" y="292" fill="#D2A8FF" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="25" font-weight="720">Failure review</text>
+    <text x="642" y="320" fill="#C9D1D9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="520">inspect, filter, repair</text>
+  </g>
+  <g>
+    <rect x="900" y="258" width="240" height="82" rx="10" fill="#111820" stroke="#30363D"/>
+    <text x="922" y="292" fill="#FFA657" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="25" font-weight="720">Logs and data</text>
+    <text x="922" y="320" fill="#C9D1D9" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="520">instrumentation evidence</text>
+  </g>
+
+  <path d="M894 299H869" stroke="#6E7681" stroke-width="3" stroke-linecap="round"/>
+  <path d="M871 290L858 299L871 308" stroke="#6E7681" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M614 299H589" stroke="#6E7681" stroke-width="3" stroke-linecap="round"/>
+  <path d="M591 290L578 299L591 308" stroke="#6E7681" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M334 299H309" stroke="#6E7681" stroke-width="3" stroke-linecap="round"/>
+  <path d="M311 290L298 299L311 308" stroke="#6E7681" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

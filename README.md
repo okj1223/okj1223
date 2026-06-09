@@ -41,16 +41,7 @@ My strongest work is not one isolated layer. I like the full loop: define the re
 
 **How I turn a problem into a system**
 
-```mermaid
-flowchart LR
-    A[Field problem] --> B[Requirements]
-    B --> C[Baseline and constraints]
-    C --> D[Rig, software, or data path]
-    D --> E[Instrumentation and logs]
-    E --> F[Failure review]
-    F --> G[Safety gates and acceptance bars]
-    G --> H[Docs, packaging, and handoff]
-```
+<img src="./assets/system-loop.svg" alt="Field problem to requirements, baseline, build path, logs, failure review, safety gates, and handoff." width="100%" />
 
 **Featured systems**
 
