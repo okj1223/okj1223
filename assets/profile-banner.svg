@@ -1,77 +1,27 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Grounded robot learning</title>
-  <desc id="desc">A profile banner showing VLM perception, robot data QA, imitation learning, and deployable robot behavior.</desc>
-  <defs>
-    <marker id="arrow-teal" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
-      <path d="M1 1L7 4L1 7Z" fill="#66E3C4"/>
-    </marker>
-    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000000" flood-opacity=".28"/>
-    </filter>
-  </defs>
+  <title id="title">Kyungjun Oh profile banner</title>
+  <desc id="desc">A minimal GitHub profile banner for VLMs, imitation learning, robotics data QA, and hardware-aware systems.</desc>
 
-  <rect width="1200" height="360" fill="#0A0F12"/>
-  <g opacity=".55">
-    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200M0 300H1200" stroke="#172129" stroke-width="1"/>
-    <path d="M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360" stroke="#172129" stroke-width="1"/>
-  </g>
-  <path d="M24 318H1176" stroke="#26323A" stroke-width="1"/>
+  <rect width="1200" height="360" fill="#0D1117"/>
+  <path d="M64 64H1136" stroke="#30363D" stroke-width="1"/>
+  <path d="M64 296H1136" stroke="#30363D" stroke-width="1"/>
 
-  <text x="64" y="68" fill="#7BB7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" font-weight="700" letter-spacing="0">VLM / IMITATION LEARNING / ROBOT DATA QA</text>
-  <text x="64" y="127" fill="#F4F7F5" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="53" font-weight="760" letter-spacing="0">Grounded robot learning</text>
-  <text x="67" y="164" fill="#B7C3BF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="23" font-weight="520" letter-spacing="0">visual grounding -> clean demonstrations -> deployable behavior</text>
+  <text x="64" y="112" fill="#7D8590" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="650" letter-spacing="0">VLMs / imitation learning / robotics systems</text>
+  <text x="64" y="181" fill="#F0F6FC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="64" font-weight="760" letter-spacing="0">Kyungjun Oh</text>
+  <text x="68" y="226" fill="#C9D1D9" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="520" letter-spacing="0">Grounded robot behavior from demos, data QA, and real constraints.</text>
 
-  <g filter="url(#soft-shadow)">
-    <rect x="64" y="196" width="274" height="104" rx="14" fill="#11181D" stroke="#2A3A43"/>
-    <rect x="82" y="215" width="102" height="66" rx="8" fill="#0C1216" stroke="#324650"/>
-    <path d="M92 260H174" stroke="#24343B" stroke-width="2"/>
-    <rect x="99" y="229" width="31" height="22" rx="4" fill="#263A4B" stroke="#7BB7FF"/>
-    <rect x="137" y="236" width="30" height="19" rx="4" fill="#2D3623" stroke="#F5C96B"/>
-    <path d="M112 239L125 246L113 253" stroke="#66E3C4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="199" y="225" fill="#66E3C4" font-family="Inter, ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" letter-spacing="0">VLM VIEW</text>
-    <text x="199" y="249" fill="#D9E2DF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="620" letter-spacing="0">target valid?</text>
-    <text x="199" y="272" fill="#8EA19A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="520" letter-spacing="0">scene, instruction, grasp</text>
+  <g font-family="Inter, ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="14" font-weight="650" letter-spacing="0">
+    <rect x="68" y="252" width="129" height="26" rx="6" fill="#111820" stroke="#30363D"/>
+    <rect x="211" y="252" width="139" height="26" rx="6" fill="#111820" stroke="#30363D"/>
+    <rect x="364" y="252" width="99" height="26" rx="6" fill="#111820" stroke="#30363D"/>
+    <rect x="477" y="252" width="125" height="26" rx="6" fill="#111820" stroke="#30363D"/>
+    <rect x="616" y="252" width="63" height="26" rx="6" fill="#111820" stroke="#30363D"/>
+    <text x="84" y="270" fill="#79C0FF">grounding</text>
+    <text x="227" y="270" fill="#7EE787">teleoperation</text>
+    <text x="380" y="270" fill="#FFA657">data QA</text>
+    <text x="493" y="270" fill="#D2A8FF">baselines</text>
+    <text x="632" y="270" fill="#C9D1D9">ROS2</text>
   </g>
 
-  <g filter="url(#soft-shadow)">
-    <rect x="386" y="196" width="344" height="104" rx="14" fill="#11181D" stroke="#2A3A43"/>
-    <text x="410" y="225" fill="#F5C96B" font-family="Inter, ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" letter-spacing="0">DATA LOOP</text>
-    <rect x="410" y="242" width="76" height="32" rx="8" fill="#162025" stroke="#39515A"/>
-    <rect x="516" y="242" width="76" height="32" rx="8" fill="#162025" stroke="#39515A"/>
-    <rect x="622" y="242" width="76" height="32" rx="8" fill="#162025" stroke="#39515A"/>
-    <path d="M492 258H508" stroke="#66E3C4" stroke-width="2" marker-end="url(#arrow-teal)"/>
-    <path d="M598 258H614" stroke="#66E3C4" stroke-width="2" marker-end="url(#arrow-teal)"/>
-    <text x="427" y="263" fill="#D9E2DF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="0">demo</text>
-    <text x="538" y="263" fill="#D9E2DF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="0">QA</text>
-    <text x="640" y="263" fill="#D9E2DF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="0">policy</text>
-    <path d="M410 231H702" stroke="#26343B" stroke-width="1"/>
-    <circle cx="420" cy="231" r="4" fill="#66E3C4"/>
-    <circle cx="558" cy="231" r="4" fill="#F5C96B"/>
-    <circle cx="696" cy="231" r="4" fill="#FF7A6C"/>
-  </g>
-
-  <g filter="url(#soft-shadow)">
-    <rect x="778" y="180" width="358" height="120" rx="14" fill="#11181D" stroke="#2A3A43"/>
-    <text x="802" y="211" fill="#FF7A6C" font-family="Inter, ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="14" font-weight="700" letter-spacing="0">ROBOT ACTION</text>
-    <path d="M848 270L895 233L950 244L1002 211" stroke="#7BB7FF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M848 270L895 233L950 244L1002 211" stroke="#D9E2DF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="848" cy="270" r="18" fill="#17242B" stroke="#66E3C4" stroke-width="3"/>
-    <circle cx="895" cy="233" r="12" fill="#17242B" stroke="#F5C96B" stroke-width="3"/>
-    <circle cx="950" cy="244" r="12" fill="#17242B" stroke="#7BB7FF" stroke-width="3"/>
-    <path d="M1002 211L1032 202M1002 211L1034 221" stroke="#D9E2DF" stroke-width="4" stroke-linecap="round"/>
-    <path d="M820 249C880 201 954 189 1044 184" stroke="#66E3C4" stroke-width="2" stroke-dasharray="6 8" marker-end="url(#arrow-teal)"/>
-    <rect x="1010" y="250" width="91" height="25" rx="7" fill="#1B2529" stroke="#3B4F58"/>
-    <text x="1023" y="267" fill="#F5C96B" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="760" letter-spacing="0">runtime gate</text>
-  </g>
-
-  <g>
-    <rect x="64" y="326" width="116" height="23" rx="11.5" fill="#142029" stroke="#2E414A"/>
-    <rect x="192" y="326" width="151" height="23" rx="11.5" fill="#18231E" stroke="#34463A"/>
-    <rect x="355" y="326" width="118" height="23" rx="11.5" fill="#221E16" stroke="#4D3F21"/>
-    <rect x="485" y="326" width="145" height="23" rx="11.5" fill="#251A1A" stroke="#4A3030"/>
-    <text x="82" y="342" fill="#7BB7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="720" letter-spacing="0">multi-view data</text>
-    <text x="211" y="342" fill="#66E3C4" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="720" letter-spacing="0">visual grounding</text>
-    <text x="374" y="342" fill="#F5C96B" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="720" letter-spacing="0">failure review</text>
-    <text x="504" y="342" fill="#FF9A8F" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="720" letter-spacing="0">hardware constraints</text>
-  </g>
+  <text x="913" y="270" fill="#7D8590" font-family="Inter, ui-monospace, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="15" font-weight="600" letter-spacing="0">okj1223.github.io</text>
 </svg>

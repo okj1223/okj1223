@@ -1,4 +1,4 @@
-<img src="./assets/profile-banner.svg" alt="Grounded robot learning: VLMs, imitation learning, robot data QA, and hardware-aware robotics." width="100%" />
+<img src="./assets/profile-banner.svg" alt="Kyungjun Oh - VLMs, imitation learning, robotics data QA, and hardware-aware systems." width="100%" />
 
 ### Kyungjun Oh
 
