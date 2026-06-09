@@ -4,6 +4,8 @@
 
 I am focused on VLMs, imitation learning, and hardware-aware robotics: the data, grounding, evaluation, and real-world constraints that turn robot demonstrations into deployable behavior.
 
+I am an M.S. student in the Department of Mechanical Engineering at National Taiwan University, Control System Division (系統控制組).
+
 <p>
   <a href="https://okj1223.github.io/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-okj1223.github.io-2EA44F?style=flat-square"></a>
   <a href="https://www.youtube.com/@okj2329"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-@okj2329-FF0000?style=flat-square"></a>
@@ -17,6 +19,7 @@ My strongest work is not one isolated layer. I like the full loop: collect demon
 | Signal | Evidence |
 | --- | --- |
 | VLM + imitation-learning interest | Instruction-conditioned manipulation, visual grounding, hallucinated grasp failure, breadcrumb-style supervision |
+| Graduate training | M.S. student, NTU Department of Mechanical Engineering, Control System Division (系統控制組) |
 | Humanoid learning operations | ~10k teleoperation collection attempts, 3-tier QA taxonomy, master-arm + MANUS glove + multi-view data workflows |
 | Robot data quality | Clean/dirty/fail labeling, bad-sample filtering, failure review, dataset readiness checks |
 | Embodied validation background | ROS2 autonomy, TurtleBot3 digital-twin validation, Pick & Place, perception, inverse kinematics, runtime safety layers |
@@ -92,5 +95,5 @@ My strongest work is not one isolated layer. I like the full loop: collect demon
 
 - Research Assistant at ROBROS, supporting humanoid manipulation data collection and learning workflow operations.
 - Currently most interested in VLM-grounded robot behavior, imitation learning, and dataset quality for manipulation.
-- Incoming M.S. student in Mechanical Engineering at National Taiwan University.
+- M.S. student in the Department of Mechanical Engineering at National Taiwan University, Control System Division (系統控制組).
 - Building toward robotics systems that are not just impressive in a demo, but inspectable, repeatable, and field-aware.
